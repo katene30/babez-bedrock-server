@@ -7,9 +7,21 @@ cache/
 # Ignore Docker runtime files
 *.pid
 
-# Ignore all behavior packs and data files
+# Ignore behavior packs and data
 mcdata/
 data/
 logs/
 cache/
 worlds/
+
+# Explicitly include custom configs and texture packs
+!/mcdata/resource_packs/
+!/mcdata/world_resource_packs.json
+!/mcdata/behavior_packs/
+!/server.properties
+!/permissions.json
+!/whitelist.json
+!/textures/
+
+# Allow any other config files you want to save (e.g., server properties)
+.DS_Store
