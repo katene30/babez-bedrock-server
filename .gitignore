@@ -1,27 +1,21 @@
-# Ignore Minecraft world data
+# Ignore world and server data
 worlds/
 *.log
 logs/
 cache/
 
-# Ignore Docker runtime files
-*.pid
-
-# Ignore behavior packs and data
+# Ignore behavior packs and resource packs
 mcdata/
 data/
 logs/
 cache/
 worlds/
 
-# Explicitly include custom configs and texture packs
-!/mcdata/resource_packs/
-!/mcdata/world_resource_packs.json
-!/mcdata/behavior_packs/
+# Ignore .DS_Store and other system files
+.DS_Store
+
+# Track server and config files
 !/server.properties
 !/permissions.json
 !/whitelist.json
 !/textures/
-
-# Allow any other config files you want to save (e.g., server properties)
-.DS_Store
