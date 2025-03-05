@@ -1,0 +1,15 @@
+# Ignore Minecraft world data
+worlds/
+*.log
+logs/
+cache/
+
+# Ignore Docker runtime files
+*.pid
+
+# Ignore all behavior packs and data files
+mcdata/
+data/
+logs/
+cache/
+worlds/
